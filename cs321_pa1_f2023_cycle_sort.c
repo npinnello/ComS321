@@ -117,6 +117,8 @@ void swap(int *a, int *b)
   tmp = *a;
   *a = *b;
   *b = tmp;
+
+  
 }
 
 /* find_index returns the sorted-order index of value in a. *
@@ -202,6 +204,8 @@ void fill(int a[], int n) {
   for (i = 0; i < n; i++) {
     a[i] = n - i - 1;
   }
+  
+  
 }
 
 /* binary_search is an implementation of the standard recursive *
